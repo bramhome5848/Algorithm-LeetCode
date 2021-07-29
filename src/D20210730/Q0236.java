@@ -1,10 +1,5 @@
 package D20210730;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 /**
  * 236. Lowest Common Ancestor of a Binary Tree
  */
