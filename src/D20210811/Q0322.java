@@ -21,7 +21,6 @@ public class Q0322 {
             }
         }
 
-        //return dp[amount]==amount+1 ? -1 : dp[amount];
         return result[amount] == amount+1 ? -1 : result[amount];
     }
 }
