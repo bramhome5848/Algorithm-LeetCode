@@ -5,11 +5,7 @@ package D20210906;
  */
 public class Q0400 {
 
-    public static void main(String[] args) {
-        System.out.println(findNthDigit(1000000000));
-    }
-
-    public static int findNthDigit(int n) {
+    public int findNthDigit(int n) {
 
         int digit = 1;
         int interval = 9;
