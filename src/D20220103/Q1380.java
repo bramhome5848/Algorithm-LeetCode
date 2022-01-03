@@ -16,7 +16,7 @@ public class Q1380 {
             int min = array[0];
             int minIdx = 0;
 
-            for (int j = 0; j < matrix[0].length; j++) {
+            for (int j=0 ; j<matrix[0].length ; j++) {
                 if (array[j] < min) {
                     min = array[j];
                     minIdx = j;
@@ -25,7 +25,7 @@ public class Q1380 {
 
             int max = min;
             for (int[] m : matrix) {
-                if (m[minIdx] >= max) max = m[minIdx];
+                if(m[minIdx] >= max) max = m[minIdx];
             }
 
             if (min == max) result.add(max);
