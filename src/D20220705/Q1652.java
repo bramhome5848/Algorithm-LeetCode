@@ -1,6 +1,4 @@
-package D22020705;
-
-import java.util.Arrays;
+package D20220705;
 
 /**
  * 1652. Defuse the Bomb
