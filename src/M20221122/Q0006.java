@@ -24,13 +24,13 @@ public class Q0006 {
      * 03       09          -> 6
      */
     public String convert(String s, int numRows) {
-        if (numRows < 2) return s;
+        if(numRows < 2) return s;
 
         StringBuilder result = new StringBuilder();
         int diff = (numRows - 1) * 2;
 
-        for(int i = 0; i < numRows; i++) {
-            for(int j = i; j < s.length(); j += diff) {
+        for(int i=0 ; i<numRows ; i++) {
+            for(int j=i ; j<s.length() ; j+=diff) {
                 result.append(s.charAt(j));
                 if(0 < i && i < numRows - 1) {
                     int idx = j + diff - 2 * i;
