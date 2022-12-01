@@ -30,6 +30,6 @@ public class Q0016 {
     }
 
     private void test() {
-
+        System.out.println("git test");
     }
 }
