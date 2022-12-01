@@ -28,8 +28,4 @@ public class Q0016 {
 
         return result;
     }
-
-    private  void test() {
-
-    }
 }
